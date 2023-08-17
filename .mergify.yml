@@ -1,7 +1,7 @@
 pull_request_rules:
 - name: automatic merge for main when CI passes and 2 reviews
   conditions:
-  - check-success=CI PIPELINE
+  - check-success=CI PIPELINE/operator
   - base=main
   actions:
     merge:
